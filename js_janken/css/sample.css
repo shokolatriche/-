@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    width: 600px;
+    margin: 0 auto;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    color: #DD1794;
+    text-shadow: -2px -2px 3px #3d6c47;
+}
+.box1{
+    height: 193px;
+    background: url("../cinamabg1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+main{
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+.text{
+    font-size: 20px;
+    height: 20px;
+    color:rebeccapurple;
+    font-weight:bold;
+    font-style: italic;
+}
+.result{
+    margin: 5px;
+    font-weight:bold;
+    font-style: italic;
+    color: #FF6E00;
+    text-shadow: -2px -1px 3px #808080;
+}
+
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid rgb(182, 180, 180);
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    list-style-type:none;
+    border: 1px solid rgb(182, 180, 180);
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: skyblue;
+    color:#fff;
+    transform: scale(2,2);
+}
+#judgment:hover{
+    transform: scale(2,2);
+    color: aqua;
+}
